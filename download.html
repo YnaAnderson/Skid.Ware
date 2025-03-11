@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download MultiTool</title>
+    <style>
+        /* General Styling */
+        body {
+            background: url('Background.jpg') center/cover fixed no-repeat;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 36px;
+            color: red;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Enhanced 3D button styling */
+        .button {
+            display: block;
+            background-color: red;
+            color: white;
+            padding: 12px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 200px;
+            transition: 0.3s;
+            transform-origin: center;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+            border: 1px solid darkred; /* Add border for more definition */
+            background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); /* Highlight for more depth */
+        }
+
+        .button:hover {
+            background-color: darkred;
+            transform: scale(1.1) rotate(10deg); /* Hover scale effect */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover for 3D effect */
+        }
+
+        .button:active {
+            transform: scale(1) rotate(0deg); /* Button click effect */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
+        }
+
+        /* Logo Styling */
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1) rotate(10deg); /* Tilt effect added here */
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            color: white;
+        }
+
+        /* Fade-In Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="Logo.png" class="logo" alt="Logo">
+
+    <div class="container">
+        <h1>Download Multi-Tool</h1>
+        <p>Click the button below to download the Multi-Tool package:</p>
+
+        <a href="https://mega.nz/file/1RowWKjL#ys5u--do0MK9ZrerQoIjs5g0cn8lowvJ5240rdh_R1E" target="_blank" class="button">
+            Download Multi-Tool
+        </a>
+
+        <a href="main.html" class="button">Go Home</a>
+    </div>
+
+    <div class="footer">Work By Azariah</div>
+
+</body>
+</html>
